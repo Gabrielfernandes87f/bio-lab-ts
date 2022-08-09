@@ -1,0 +1,6 @@
+{
+    "nuxt.isNuxtApp": true,
+    "vetur.experimental.templateInterpolationService": true
+    // eslint-disable-next-line no-console
+    // v-bind:class="produto.stock ? 'sucesso' : 'danger'"
+}

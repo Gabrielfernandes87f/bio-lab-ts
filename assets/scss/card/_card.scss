@@ -1,0 +1,97 @@
+.card {
+  background-color: $background-darker;
+  color: $color-link;
+  border-radius: 15px;
+  padding: 10px 5px;
+  max-width: 600px;
+  box-sizing: border-box;
+  max-height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: rgba(118, 118, 118, 0.202) 0px 0px 5px 2px;
+
+  .card-social {
+
+    display: flex;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-weight: 700;
+      text-align: center;
+      margin-right: 20px;
+      color: $color-link;
+      $color-link-random: #01608c;
+      animation: color-link-random 5s infinite;
+    }
+  }
+
+  p {
+    padding: 5px 10px;
+  }
+
+
+
+
+}
+
+svg path {
+  max-width: 20px !important;
+  fill: $color-link;
+  width: 20px !important;
+  animation: svg-link-random 5s infinite;
+}
+
+
+
+
+
+.card-template {
+  margin: 20px 10px;
+
+}
+
+@keyframes color-link-random {
+  0% {
+    color: rgb(0, 200, 255);
+  }
+
+  30% {
+    color: rgb(144, 61, 202)
+  }
+
+  50% {
+    color: rgb(82, 0, 141)
+  }
+
+  70% {
+    color: rgb(183, 4, 88)
+  }
+
+  100% {
+    color: rgb(195, 110, 255)
+  }
+}
+
+@keyframes svg-link-random {
+  0% {
+    fill: rgb(0, 200, 255);
+  }
+
+  30% {
+    fill: rgb(144, 61, 202)
+  }
+
+  50% {
+    fill: rgb(82, 0, 141)
+  }
+
+  70% {
+    fill: rgb(183, 4, 88)
+  }
+
+  100% {
+    fill: rgb(195, 110, 255)
+  }
+}
