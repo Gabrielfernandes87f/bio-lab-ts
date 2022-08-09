@@ -26,13 +26,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    '@nuxtjs/style-resources'
+    '@nuxt/typescript-build'
   ],
-    styleResources: {
-    // your settings here
-    scss: ['@/assets/scss/*.scss'] // path to your main file
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
