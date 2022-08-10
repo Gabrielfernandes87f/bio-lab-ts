@@ -1,12 +1,12 @@
 <template>
   <div>
-    <a :href="href" class="card-main" target="_blank">
+    <nuxt-link :to="to" class="card-main">
       <div class="card">
         <div class="card-social">
           <slot />
         </div>
       </div>
-    </a>
+    </nuxt-link>
   </div>
 </template>
 
@@ -17,11 +17,11 @@ export default Vue.extend({
   name: 'CardIndex',
   data() {
     return {
-      //
+      to: '/',
     }
   },
   props: {
-    href: {
+    to: {
       type: String,
       required: true,
     },

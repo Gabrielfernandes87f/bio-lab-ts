@@ -1,5 +1,4 @@
 @import "_variables.scss";
-@import "_mixins.scss";
 @import "_construtor.scss";
 @import "_functions.scss";
 @import "@/assets/scss/card/_card.scss";
@@ -12,8 +11,21 @@ body {
 
   background-color: $background;
   color: $color-light;
-
+  font-family: 'Roboto', sans-serif, 'Open Sans', sans-serif;
+  font-size: 14px;
   padding: 40px 20px;
+}
+
+.eng {
+  font-size: 1.1rem;
+  font-weight: bold;
+  animation: color-link-random 6s infinite;
+}
+
+.prof {
+
+  font-size: large;
+  flex-wrap: nowrap;
 }
 
 .v-move {
@@ -61,16 +73,17 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  font-size: 1.5rem;
 
   p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-weight: 700;
-    color: #019ba0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $color-link;
+    line-height: 1.3;
     max-width: fit-content;
     text-shadow: rgba(255, 255, 255, 0.993) 0px 0px 5px 10px;
     text-align: justify;
+    box-sizing: border-box;
+    margin: 0 20px;
   }
 }
 
@@ -81,4 +94,35 @@ body {
   margin-bottom: 20px;
   padding: 0px 0px 40px;
   max-width: 600px;
+}
+
+.block {
+  display: block;
+}
+
+.about-body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-bold {
+  color: $color-link;
+}
+
+.btn-curriculo,
+.btn-voltar {
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 0;
+  margin: 0;
+  animation: color-link-random 6s infinite;
+}
+
+.btn-voltar,
+reverse {
+  animation: color-link-random 6s infinite reverse;
 }

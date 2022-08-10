@@ -16,14 +16,14 @@
     justify-content: space-around;
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: bold;
       font-weight: 700;
       text-align: center;
       margin-right: 20px;
       color: $color-link;
       $color-link-random: #01608c;
-      animation: color-link-random 5s infinite;
+      animation: color-link-random 6s infinite;
     }
   }
 
@@ -40,7 +40,7 @@ svg path {
   max-width: 20px !important;
   fill: $color-link;
   width: 20px !important;
-  animation: svg-link-random 5s infinite;
+  animation: svg-link-random 6s infinite;
 }
 
 
@@ -54,44 +54,46 @@ svg path {
 
 @keyframes color-link-random {
   0% {
-    color: rgb(0, 200, 255);
+    color: rgb(255, 255, 255);
   }
 
   30% {
-    color: rgb(144, 61, 202)
+    color: rgb(124, 1, 225)
   }
 
   50% {
-    color: rgb(82, 0, 141)
+    color: rgb(255, 174, 0)
   }
 
   70% {
-    color: rgb(183, 4, 88)
+
+    color: rgb(255, 85, 0);
   }
 
   100% {
-    color: rgb(195, 110, 255)
+    color: rgb(157, 255, 0);
   }
 }
 
 @keyframes svg-link-random {
   0% {
-    fill: rgb(0, 200, 255);
+    fill: rgb(255, 255, 255);
   }
 
   30% {
-    fill: rgb(144, 61, 202)
+    fill: rgb(124, 1, 225)
   }
 
   50% {
-    fill: rgb(82, 0, 141)
+    fill: rgb(255, 174, 0)
   }
 
   70% {
-    fill: rgb(183, 4, 88)
+
+    fill: rgb(255, 85, 0);
   }
 
   100% {
-    fill: rgb(195, 110, 255)
+    fill: rgb(157, 255, 0);
   }
 }

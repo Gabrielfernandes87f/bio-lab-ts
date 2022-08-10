@@ -9,9 +9,11 @@
       />
     </div>
     <div class="card-template">
-      <h1 class="center-div">Gabriel Fernandes</h1>
-      <p class="center-div">Engenheiro de Software</p>
-      <p class="center-div">Nuxt.js | Vue.js | Laravel | SQL</p>
+      <h1 class="center-div name">Gabriel Fernandes</h1>
+      <p class="center-div eng">Engenheiro de Software</p>
+      <p class="center-div prof">
+        Nuxt.js | Vue.js | Laravel | SQL | Adonis.js
+      </p>
     </div>
     <div class="center-div content-main">
       <p>
@@ -93,6 +95,11 @@
           </svg>
         </CardIndex>
       </div>
+      <div class="card-template reverse">
+        <CardLink to="/about">
+          <p class="btn-voltar">About</p>
+        </CardLink>
+      </div>
     </div>
   </div>
 </template>
@@ -100,16 +107,16 @@
 <script lang="ts">
 import Vue from 'vue'
 import CardIndex from '~/components/CardIndex.vue'
+import CardLink from '~/components/CardLink.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
   data() {
-    return {
-      href: '',
-    }
+    return {}
   },
   components: {
     CardIndex,
+    CardLink,
   },
 })
 </script>

@@ -1,6 +1,6 @@
 $background: #1c0021;
 $background-dark: #240047;
-$background-darker: #1c3166;
+$background-darker: #0c2d82;
 $color: #333;
 $color-dark: #222;
 $color-light: #fff;
@@ -9,20 +9,3 @@ $color-link-hover: #00a0e9;
 $color-link-random: #01608c;
 
 $background-card: rgb(32, 0, 66);
-
-
-$colors: (
-  dark: (base:#1c0021,
-    darkest:#240047,
-    darker:#1c3166,
-  ),
-  neutral: (base:#333,
-    darkest:#222,
-  ),
-  link: (base:#00a9d4,
-    darkest:#40ffdc,
-  ),
-  link-hover: (base:#1a081f,
-    darkest:#4d1d4d,
-    darker:#05676e,
-  )) !default;
