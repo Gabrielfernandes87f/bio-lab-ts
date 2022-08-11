@@ -1,9 +1,9 @@
 <template>
   <div>
     <a
-      href="@/assets/img/DevGabrielfernandesUp.pdf"
+      href="@/static/DevGabrielfernandesUp.pdf"
       class="card-main"
-      Download="DevGabrielfernandesUp.pdf"
+      Download="DevGabrielfernandes1.pdf"
     >
       <div class="card">
         <div class="card-social">
