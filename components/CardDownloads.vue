@@ -1,7 +1,7 @@
 <template>
   <div>
     <a
-      href="/DevGabrielfernandesUP.pdf"
+      href="/devgabrielfernandes.pdf"
       download="/DevGabrielfernandes.pdf"
       class="card-main"
     >
