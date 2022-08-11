@@ -1,8 +1,8 @@
 <template>
   <div>
     <a
-      href="/devgabrielfernandes.pdf"
-      download="/DevGabrielfernandes.pdf"
+      href="DevGabrielfernandesUp.pdf"
+      download="/DevGabrielFernandes.pdf"
       class="card-main"
     >
       <div class="card">
