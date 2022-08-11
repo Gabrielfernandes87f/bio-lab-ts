@@ -16,9 +16,7 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'CardIndex',
   data() {
-    return {
-      to: '/',
-    }
+    return {}
   },
   props: {
     to: {

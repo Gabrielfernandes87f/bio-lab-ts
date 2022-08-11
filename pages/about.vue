@@ -73,6 +73,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import CardLink from '~/components/CardLink.vue'
+import CardDownloads from '~/components/CardDownloads.vue'
 
 export default defineComponent({
   data() {
@@ -80,6 +81,6 @@ export default defineComponent({
       //
     }
   },
-  components: { CardLink },
+  components: { CardLink, CardDownloads },
 })
 </script>
