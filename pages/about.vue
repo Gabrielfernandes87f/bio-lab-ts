@@ -55,9 +55,9 @@
         </ul>
         <div>
           <div class="card-template">
-            <CardIndex href="https://www.linkedin.com/in/gabrielfernandesweb/">
-              <p class="btn-curriculo">Currìculo</p>
-            </CardIndex>
+            <CardDownloads>
+              <p class="btn-curriculo">Baixar Currículo</p>
+            </CardDownloads>
           </div>
           <div class="card-template">
             <CardLink to="/">
