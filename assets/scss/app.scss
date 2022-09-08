@@ -58,13 +58,15 @@ body {
   padding: 0px 0px 40px;
 }
 
-.bg-image {
+.bg-image,
+.bg-projetos {
   object-fit: cover;
   overflow: hidden;
-  border-radius: 50%;
   max-width: fit-content;
+}
 
-
+.bg-image {
+  border-radius: 50%;
 }
 
 .center-div {
