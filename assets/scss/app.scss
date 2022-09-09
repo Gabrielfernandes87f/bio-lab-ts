@@ -68,7 +68,6 @@ body {
 
 .bg-image {
   border-radius: 50%;
-  max-width: fit-content;
 }
 
 .center-div {
@@ -144,10 +143,10 @@ reverse {
 }
 
 .img-projeto {
-  transform: scale(90%);
+  transform: scale(70%);
   transition: 200ms linear;
 
   &:hover {
-    transform: scale(100%);
+    transform: scale(90%);
   }
 }
