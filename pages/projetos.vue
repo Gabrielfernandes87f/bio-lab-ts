@@ -68,9 +68,7 @@
                 pudesse colocar as minhas fotos. Trabalhei muito anos como
                 fotógrafo profissional, aqui você vai conhecer um pouco do meu
                 de Gabriel fotógrafo. Esse site foi feito em Laravel com Docker
-                e hospedei ele na Digital Ocean. O navegador informa que esse
-                site não é seguro porque ele não tem o certificado ssl. Não
-                coloquei ainda, não tenho domínio pra usar aqui.
+                fiz o deploy na Digital Ocean.
               </p>
             </div>
           </div>
