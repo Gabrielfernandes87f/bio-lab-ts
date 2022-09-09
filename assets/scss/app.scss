@@ -60,13 +60,15 @@ body {
 
 .bg-image,
 .bg-projetos {
-  object-fit: cover;
   overflow: hidden;
+  object-fit: cover;
   max-width: fit-content;
+
 }
 
 .bg-image {
   border-radius: 50%;
+  max-width: fit-content;
 }
 
 .center-div {
@@ -127,4 +129,25 @@ body {
 .btn-voltar,
 reverse {
   animation: color-link-random 6s infinite reverse;
+}
+
+.color-white {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+}
+
+.patins {
+  margin-top: 50px;
+}
+
+.img-projeto {
+  transform: scale(90%);
+  transition: 200ms linear;
+
+  &:hover {
+    transform: scale(100%);
+  }
 }

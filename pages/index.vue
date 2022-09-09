@@ -100,6 +100,11 @@
           <p class="btn-voltar">About</p>
         </CardLink>
       </div>
+      <div class="card-template reverse">
+        <CardLink to="/projetos">
+          <p class="btn-voltar">meus projetos</p>
+        </CardLink>
+      </div>
     </div>
   </div>
 </template>

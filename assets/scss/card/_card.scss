@@ -21,9 +21,8 @@
       font-weight: 700;
       text-align: center;
       margin-right: 20px;
-      color: $color-link;
-      $color-link-random: #01608c;
-      animation: color-link-random 6s infinite;
+      color: white;
+
     }
   }
 
@@ -40,7 +39,6 @@ svg path {
   max-width: 20px !important;
   fill: $color-link;
   width: 20px !important;
-  animation: svg-link-random 6s infinite;
 }
 
 
