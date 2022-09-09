@@ -53,7 +53,7 @@
       </div>
 
       <div class="card-template">
-        <CardIndex href="https://http://142.93.127.99:8080">
+        <CardIndex href="http://142.93.127.99:8080">
           <div class="card-main">
             <div>
               <div class="bg-image-container">
