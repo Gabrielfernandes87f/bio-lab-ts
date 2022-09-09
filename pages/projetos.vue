@@ -53,7 +53,7 @@
       </div>
 
       <div class="card-template">
-        <CardIndex href="http://142.93.127.99:8080">
+        <CardIndex href="https://1coder.tech">
           <div class="card-main">
             <div>
               <div class="bg-image-container">
